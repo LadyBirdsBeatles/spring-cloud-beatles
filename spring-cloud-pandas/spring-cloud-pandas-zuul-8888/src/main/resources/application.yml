@@ -1,0 +1,32 @@
+#spring 服务器的访问端口
+server:
+  port: 8888
+spring:
+  application:
+    name: spring-cloud-pandas-zuul-gateway
+#eureka配置 服务注册到哪里
+eureka:
+  client:
+    #register-with-eureka: false #不向eureka注册中心注册自己
+    service-url:
+      defaultZone: http://cloud.beetles.net:8087/eureka/,http://cloud.beetles.cn:8088/eureka/,http://cloud.beetles.com:8089/eureka/
+  #修改默仍描述
+  instance:
+    instance-id: spring-cloud-pandas-zuul-gateway-8888 #修改默仍描述
+    #显示IP地址
+    prefer-ip-address: true
+#路由配置
+zuul:
+  routes:
+    beatles.serviceId: spring-cloud-beatles
+    beatles.path: /pandasbeatles/**
+  ignored.services: "*"  # spring-cloud-beatles #不能使用这个路径访问 ignored,忽略隐藏全部
+  prefix: /pandas #设置公共前缀
+#info配置
+#名称
+info:
+  app.name: spring-cloud-pandas-zuul-gateway-8888
+  #公司名称
+  company.name: com.beatles.cloud
+  #作者
+  auth: XiaoChen

@@ -1,0 +1,9 @@
+#系统级别
+spring:
+  cloud:
+    config:
+      name: eureka-config #git上的资源名称
+      profile: dev
+      label: master
+      uri: http://127.0.0.1:8020
+

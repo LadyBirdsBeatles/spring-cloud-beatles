@@ -1,0 +1,3 @@
+#spring 服务器的访问端口
+server:
+  port: 8012

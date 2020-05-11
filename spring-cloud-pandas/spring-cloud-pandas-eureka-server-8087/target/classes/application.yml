@@ -1,0 +1,12 @@
+server:
+  port: 8087
+eureka:
+  instance:
+    hostname: cloud.beetles.net #eureka客服端实例名称
+  client:
+    register-with-eureka: false #表示是否向eureka注册中心注册自己
+    fetch-registry: false #fetch-registry为false表示自己为注册中心
+    service-url: #监控页面
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://cloud.beetles.cn:8088/eureka/,http://cloud.beetles.com:8089/eureka/
+

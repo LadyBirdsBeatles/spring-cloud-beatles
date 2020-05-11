@@ -1,0 +1,27 @@
+#spring 服务器的访问端口
+server:
+  port: 8010
+spring:
+  application:
+    name: spring-cloud-pandas-consumer-user
+#eureka配置 服务注册到哪里
+eureka:
+  client:
+    register-with-eureka: false #不向eureka注册中心注册自己
+    service-url:
+      defaultZone: http://cloud.beetles.net:8087/eureka/,http://cloud.beetles.cn:8088/eureka/,http://cloud.beetles.com:8089/eureka/
+  #修改默仍描述
+  instance:
+    instance-id: spring-cloud-pandas-consumer-user-8010 #修改默仍描述
+    #显示IP地址
+    prefer-ip-address: true #显示IP地址
+
+
+ #info配置
+ #名称
+info:
+  app.name: spring-cloud-pandas-consumer-user-8010
+    #公司名称
+  company.name: com.beatles.cloud
+    #作者
+  auth: XiaoChen

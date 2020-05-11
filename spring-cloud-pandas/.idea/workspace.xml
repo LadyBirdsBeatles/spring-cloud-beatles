@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ccea35a-462a-4893-b37f-04ff8f23e2f0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../VersionControlSoftware/Maven/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../VersionControlSoftware/Maven/maven/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bZH8u2PSw6XCNCFvvHkE8VgMuk" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-pandas-config-client-8021/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3034483" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Software\IntelliJ IDEA\WorkSpaces\OpenSource\Advanced\spring-cloud-pandas\spring-cloud-pandas-config-client-8021\src\main\resources" />
+      <recent name="D:\Software\IntelliJ IDEA\WorkSpaces\OpenSource\Advanced\spring-cloud-pandas\spring-cloud-pandas-zuul-8888\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloud.pandas" />
+      <recent name="com.cloud.pandas.config" />
+      <recent name="com.cloud.pandas.controller" />
+      <recent name="com.cloud.pandas.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Software\IntelliJ IDEA\WorkSpaces\OpenSource\Advanced\spring-cloud-pandas\spring-cloud-pandas-config-client-8021\src\main\resources" />
+      <recent name="D:\Software\IntelliJ IDEA\WorkSpaces\OpenSource\Advanced\spring-cloud-pandas\spring-cloud-pandas-config-service-8020\src\main\resources" />
+      <recent name="D:\Software\IntelliJ IDEA\WorkSpaces\OpenSource\Advanced\spring-cloud-pandas\spring-cloud-pandas-config-service-8020\src\main\java" />
+      <recent name="D:\Software\IntelliJ IDEA\WorkSpaces\OpenSource\Advanced\spring-cloud-pandas\spring-cloud-pandas-zuul-8888\src\main\java" />
+      <recent name="D:\Software\IntelliJ IDEA\WorkSpaces\OpenSource\Advanced\spring-cloud-pandas\spring-cloud-pandas-consumer-user-hystrix-dashboard-8012\src" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 12 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="+" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigClient_8021">
+    <configuration name="ConfigClient_8021" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-pandas-config-client-8021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.pandas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.pandas.ConfigClient_8021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServer_8020" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-pandas-config-service-8020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.pandas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.pandas.ConfigServer_8020" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer_8089" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-pandas-eureka-server-8089" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.pandas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.pandas.EurekaServer_8089" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProvider_8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-pandas-provider-user-8003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.pandas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.pandas.UserProvider_8003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserZuul_8888" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-pandas-zuul-8888" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.pandas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.pandas.UserZuul_8888" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.UserZuul_8888" />
+      <item itemvalue="Spring Boot.EurekaServer_8089" />
+      <item itemvalue="Spring Boot.UserProvider_8003" />
+      <item itemvalue="Spring Boot.ConfigServer_8020" />
+      <item itemvalue="Spring Boot.ConfigClient_8021" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigClient_8021" />
+        <item itemvalue="Spring Boot.ConfigServer_8020" />
+        <item itemvalue="Spring Boot.UserZuul_8888" />
+        <item itemvalue="Spring Boot.UserProvider_8003" />
+        <item itemvalue="Spring Boot.EurekaServer_8089" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ccea35a-462a-4893-b37f-04ff8f23e2f0" name="Default Changelist" comment="" />
+      <created>1588832539786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588832539786</updated>
+      <workItem from="1588832545255" duration="23665000" />
+      <workItem from="1588905231111" duration="7877000" />
+      <workItem from="1589028080308" duration="14200000" />
+      <workItem from="1589074356909" duration="5666000" />
+      <workItem from="1589095473244" duration="6357000" />
+      <workItem from="1589177675607" duration="23560000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="359" y="0" key="#Project_Structure" timestamp="1589193788641">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="359" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1589193788641" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588863961001">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1588863961001" />
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1589107160986">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1589107160986" />
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589193830239">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1589193830239" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1589074496448">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1589074496448" />
+    <state width="1493" height="562" key="GridCell.Tab.0.bottom" timestamp="1589213353440">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="562" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589213353440" />
+    <state width="1493" height="562" key="GridCell.Tab.0.center" timestamp="1589213353440">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="562" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589213353440" />
+    <state width="1493" height="562" key="GridCell.Tab.0.left" timestamp="1589213353439">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="562" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589213353439" />
+    <state width="1493" height="562" key="GridCell.Tab.0.right" timestamp="1589213353440">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="562" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589213353440" />
+    <state width="1493" height="562" key="GridCell.Tab.1.bottom" timestamp="1589213353440">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="562" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589213353440" />
+    <state width="1493" height="562" key="GridCell.Tab.1.center" timestamp="1589213353440">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="562" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1589213353440" />
+    <state width="1493" height="562" key="GridCell.Tab.1.left" timestamp="1589213353440">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="562" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1589213353440" />
+    <state width="1493" height="562" key="GridCell.Tab.1.right" timestamp="1589213353440">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="562" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1589213353440" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1589038912500">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1589038912500" />
+    <state x="357" y="94" width="821" height="646" key="find.popup" timestamp="1589038665226">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="357" y="94" width="821" height="646" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589038665226" />
+    <state x="350" y="47" key="new project wizard" timestamp="1589209673416">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="350" y="47" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1589209673416" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1588850285333">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1588850285333" />
+  </component>
+</project>

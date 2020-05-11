@@ -1,0 +1,14 @@
+#spring 服务器的访问端口
+server:
+  port: 8021
+spring:
+  application:
+    name: spring-cloud-pandas-config-client-8021
+  #info配置
+  #名称
+info:
+  app.name: spring-cloud-pandas-config-client-8021
+  #公司名称
+  company.name: com.beatles.cloud
+  #作者
+  auth: XiaoChen

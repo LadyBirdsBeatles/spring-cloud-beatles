@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-pandas-consumer-user-feign-8011" />
+        <module name="spring-cloud-pandas-consumer-user-hystrix-dashboard-8012" />
+        <module name="spring-cloud-pandas-eureka-server-8088" />
+        <module name="spring-cloud-pandas-zuul-8888" />
+        <module name="spring-cloud-pandas-api" />
+        <module name="spring-cloud-pandas-provider-user-hystrix-8004" />
+        <module name="spring-cloud-pandas-consumer-user-8010" />
+        <module name="spring-cloud-pandas-eureka-server-8089" />
+        <module name="spring-cloud-pandas-config-service-8020" />
+        <module name="spring-cloud-pandas-eureka-server-8087" />
+        <module name="spring-cloud-pandas-provider-user-8003" />
+        <module name="spring-cloud-pandas-provider-user-8002" />
+        <module name="spring-cloud-pandas-provider-user-8001" />
+        <module name="spring-cloud-pandas-config-client-8021" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

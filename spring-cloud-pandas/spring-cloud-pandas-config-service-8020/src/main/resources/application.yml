@@ -1,0 +1,20 @@
+#spring 服务器的访问端口
+server:
+  port: 8020
+spring:
+  application:
+    name: spring-cloud-pandas-config-service
+    #运程仓库
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/cmaclcq/spring-cloud-beatles.git #https 不是git
+  #info配置
+  #名称
+info:
+  app.name: spring-cloud-pandas-config-service-8020
+  #公司名称
+  company.name: com.beatles.cloud
+  #作者
+  auth: XiaoChen

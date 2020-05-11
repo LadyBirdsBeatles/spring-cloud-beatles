@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.pandas</groupId>
+    <artifactId>spring-cloud-pandas</artifactId>
+    <!--打包方式-->
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-cloud-pandas-api</module>
+        <module>spring-cloud-pandas-provider-user-8001</module>
+        <module>spring-cloud-pandas-provider-user-8002</module>
+        <module>spring-cloud-pandas-eureka-server-8087</module>
+        <module>spring-cloud-pandas-eureka-server-8088</module>
+        <module>spring-cloud-pandas-eureka-server-8089</module>
+        <module>spring-cloud-pandas-provider-user-8003</module>
+        <module>spring-cloud-pandas-consumer-user-8010</module>
+        <module>spring-cloud-pandas-consumer-user-feign-8011</module>
+        <module>spring-cloud-pandas-zuul-8888</module>
+        <module>spring-cloud-pandas-config-service-8020</module>
+        <module>spring-cloud-pandas-consumer-user-hystrix-dashboard-8012</module>
+        <module>spring-cloud-pandas-provider-user-hystrix-8004</module>
+        <module>spring-cloud-pandas-config-client-8021</module>
+    </modules>
+
+
+    <!--  版本号管理-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
+        <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
+        <mybatis-spring-boot-starter.version>2.1.2</mybatis-spring-boot-starter.version>
+        <mysql-connector.version>8.0.20</mysql-connector.version>
+        <druid.version>1.1.22</druid.version>
+        <fastjson.version>1.2.62</fastjson.version>
+        <lombok.version>1.18.10</lombok.version>
+        <log4j.version>1.2.17</log4j.version>
+        <commons-lang3.version>3.10</commons-lang3.version>
+        <aspectjweaver.version>1.9.5</aspectjweaver.version>
+        <slf4j.version>2.0.0-alpha1</slf4j.version>
+        <junit.version>4.13</junit.version>
+        <spring-boot-devtools.version>2.2.6.RELEASE</spring-boot-devtools.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <!-- spring-cloud依赖-->
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <!--<version>Greenwich.SR3</version>-->
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <!--<scope>import</scope>-->
+                <scope>runtime</scope>
+            </dependency>
+
+            <!--springboot依赖-->
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--spring boot mybatis启动器-->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot-starter.version}</version>
+            </dependency>
+            <!-- mysql依赖-->
+            <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
+            </dependency>
+            <!--数据库连接池-->
+            <!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <!--fastjson-->
+            <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!--junit日志-->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!--lombok日志-->
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>import</scope>
+            </dependency>
+            <!--commons-lang3-->
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <!--切面-->
+            <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectjweaver.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <!--log4j日志-->
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
+            </dependency>
+            <!-- 热部署工具-->
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <version>${spring-boot-devtools.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
