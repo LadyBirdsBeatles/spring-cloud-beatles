@@ -1,0 +1,26 @@
+#spring 服务器的访问端口
+spring:
+ profile:
+  active: dev  
+
+
+---
+spring:
+ profile:
+  active: dev  
+  application:
+   name: spring-cloud-config-dev
+
+---
+spring:
+ profile:
+  active: test  
+  application:
+   name: spring-cloud-config-test
+
+---
+spring:
+ profile:
+  active: prod  
+  application:
+   name: spring-cloud-config-prod
